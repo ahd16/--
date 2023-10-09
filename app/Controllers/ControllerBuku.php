@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 
-class Controller-buku extends BaseController
+class ControllerBuku extends BaseController
 {
     public function index()
     {

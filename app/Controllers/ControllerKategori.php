@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 
-class Controller-kategori extends BaseController
+class ControllerKategori extends BaseController
 {
     public function index()
     {

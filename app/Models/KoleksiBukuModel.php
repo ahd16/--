@@ -4,10 +4,10 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Buku-Model extends Model
+class KoleksiBukuModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'buku-s';
+    protected $table            = 'koleksibuku-s';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
