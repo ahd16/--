@@ -1,0 +1,1066 @@
+ERROR - 2023-10-21 05:57:40 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 05:57:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 06:01:00 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 06:01:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 06:01:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 06:01:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 06:01:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan-19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 06:01:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 06:03:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan-19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 06:03:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 06:03:20 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan-19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 06:03:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 06:06:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan-19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 06:06:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 12:04:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 12:04:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 12:10:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 12:10:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 12:10:40 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 12:10:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 12:34:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 12:34:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 12:36:29 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 12:36:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 12:37:31 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 12:37:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 12:57:41 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 12:57:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 13:00:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 13:00:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-21 13:05:03 --> Invalid file: "home/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('home/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('home/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 20:31:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 20:31:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 20:46:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 20:46:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 20:50:30 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 20:50:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 20:50:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 20:50:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 20:59:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 20:59:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 21:05:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 21:05:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 21:06:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 21:06:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 21:11:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 21:11:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+ERROR - 2023-10-21 21:11:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'perpustakaan_19...', 3306, '', 0)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#9 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\perpustakaan-19220577\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\perpustakaan-19220577\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\perpustakaan-19220577\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\perpustakaan-19220577\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\perpustakaan-19220577\app\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+#7 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+#8 C:\xampp\htdocs\perpustakaan-19220577\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\perpustakaan-19220577\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\perpustakaan-19220577\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-21 21:11:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_penerbit`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\PenerbitController.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')

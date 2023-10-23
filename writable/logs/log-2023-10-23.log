@@ -1,0 +1,110 @@
+CRITICAL - 2023-10-23 00:38:01 --> Invalid file: "peminjaman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjaman/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peminjaman/index', [], true)
+ 3 APPPATH\Controllers\ControllerPeminjaman.php(14): view('peminjaman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPeminjaman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPeminjaman))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-23 00:40:07 --> Invalid file: "peminjaman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjaman/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peminjaman/index', [], true)
+ 3 APPPATH\Controllers\ControllerPeminjaman.php(14): view('peminjaman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPeminjaman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPeminjaman))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-23 00:40:27 --> Invalid file: "peminjaman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjaman/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peminjaman/index', [], true)
+ 3 APPPATH\Controllers\ControllerPeminjaman.php(14): view('peminjaman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPeminjaman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPeminjaman))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-23 00:43:45 --> Invalid file: "peminjaman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjaman/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peminjaman/index', [], true)
+ 3 APPPATH\Controllers\ControllerPeminjaman.php(14): view('peminjaman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPeminjaman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPeminjaman))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-23 00:44:04 --> Invalid file: "peminjaman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjaman/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peminjaman/index', [], true)
+ 3 APPPATH\Controllers\ControllerPeminjaman.php(14): view('peminjaman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPeminjaman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPeminjaman))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-23 00:50:17 --> Invalid file: "peminjaman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjaman/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peminjaman/index', [], true)
+ 3 APPPATH\Controllers\ControllerPeminjaman.php(14): view('peminjaman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPeminjaman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPeminjaman))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-23 00:53:05 --> Invalid file: "peminjaman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjaman/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peminjaman/index', [], true)
+ 3 APPPATH\Controllers\ControllerPeminjaman.php(14): view('peminjaman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPeminjaman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPeminjaman))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-23 01:21:48 --> Invalid file: "peminjaman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjaman/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peminjaman/index', [], true)
+ 3 APPPATH\Controllers\ControllerPeminjaman.php(14): view('peminjaman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPeminjaman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPeminjaman))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-23 01:26:01 --> Invalid file: "peminjaman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjaman/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peminjaman/index', [], true)
+ 3 APPPATH\Controllers\ControllerPeminjaman.php(14): view('peminjaman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPeminjaman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPeminjaman))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-23 01:26:12 --> Invalid file: "peminjaman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjaman/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peminjaman/index', [], true)
+ 3 APPPATH\Controllers\ControllerPeminjaman.php(14): view('peminjaman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPeminjaman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPeminjaman))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-23 01:34:10 --> syntax error, unexpected token "endif", expecting end of file
+in APPPATH\Views\Peminjaman\Table.php on line 44.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('peminjaman/table', [], true)
+ 3 APPPATH\Controllers\ControllerPeminjaman.php(14): view('peminjaman/table', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPeminjaman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPeminjaman))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')

@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class PeminjamanModel extends Model
+class ModelPenerbit extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'peminjamen';
+    protected $table            = 'tb_penerbit';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
-    protected $protectFields    = true;
+    protected $protectFields    = false;
     protected $allowedFields    = [];
 
     // Dates

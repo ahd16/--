@@ -1,0 +1,110 @@
+CRITICAL - 2023-10-22 05:19:59 --> Invalid file: "penerbit/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penerbit/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penerbit/index', [], true)
+ 3 APPPATH\Controllers\PenerbitController.php(16): view('penerbit/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-22 05:21:53 --> Invalid file: "penerbit/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penerbit/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penerbit/index', [], true)
+ 3 APPPATH\Controllers\PenerbitController.php(16): view('penerbit/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-22 05:22:37 --> Invalid file: "penerbit/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penerbit/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penerbit/index', [], true)
+ 3 APPPATH\Controllers\PenerbitController.php(16): view('penerbit/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-22 05:24:32 --> Invalid file: "penerbit/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penerbit/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penerbit/index', [], true)
+ 3 APPPATH\Controllers\PenerbitController.php(16): view('penerbit/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PenerbitController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenerbitController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-22 05:32:55 --> Invalid file: "penerbit/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penerbit/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penerbit/index', [], true)
+ 3 APPPATH\Controllers\ControllerPenerbit.php(16): view('penerbit/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPenerbit->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPenerbit))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-22 05:36:51 --> Invalid file: "penerbit/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penerbit/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penerbit/index', [], true)
+ 3 APPPATH\Controllers\ControllerPenerbit.php(16): view('penerbit/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPenerbit->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPenerbit))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-22 05:37:05 --> Invalid file: "penerbit/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penerbit/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penerbit/index', [], true)
+ 3 APPPATH\Controllers\ControllerPenerbit.php(16): view('penerbit/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPenerbit->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPenerbit))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-22 05:37:07 --> Invalid file: "penerbit/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penerbit/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penerbit/index', [], true)
+ 3 APPPATH\Controllers\ControllerPenerbit.php(16): view('penerbit/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPenerbit->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPenerbit))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-22 05:40:03 --> Invalid file: "penerbit/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penerbit/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penerbit/index', [], true)
+ 3 APPPATH\Controllers\ControllerPenerbit.php(16): view('penerbit/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPenerbit->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPenerbit))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-22 05:40:33 --> Invalid file: "penerbit/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penerbit/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penerbit/index', [], true)
+ 3 APPPATH\Controllers\ControllerPenerbit.php(16): view('penerbit/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPenerbit->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPenerbit))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
+CRITICAL - 2023-10-22 05:40:35 --> Invalid file: "penerbit/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('penerbit/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('penerbit/index', [], true)
+ 3 APPPATH\Controllers\ControllerPenerbit.php(16): view('penerbit/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ControllerPenerbit->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPenerbit))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\perpustakaan-19220577\\public\\index.php')
